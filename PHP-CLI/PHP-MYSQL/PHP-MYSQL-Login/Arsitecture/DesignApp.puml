@@ -1,0 +1,14 @@
+@startuml
+
+node "Program"
+node "PDO"
+node "PDODRIVER"
+database "DB_PHP_MYSQL"
+
+
+ Program-->PDO
+ PDO-->PDODRIVER
+ PDODRIVER->DB_PHP_MYSQL
+
+
+@enduml

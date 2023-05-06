@@ -1,0 +1,21 @@
+
+@startuml
+
+
+class Users{
+
+   * id int <PK>
+--
+* name Varchar(255)
+--
+*email Varchar(255)
+--
+*password Varchar(255)
+--
+
+}
+
+
+
+@enduml
+
